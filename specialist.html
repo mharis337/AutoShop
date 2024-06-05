@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Specialist</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="global.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <header class="site-header sticky-top py-1">
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="logo-spacing" href="./index.html">
+                    <img class="logo" src="images/Logo.png" alt="Auto Shop Logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-left mb-2 mb-lg-0 justify-content-center custom-spacing">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./appointments.html">Book Appointment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link highlighted" href="./specialist.html">Specialists</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about_us.html">About Us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto justify-content-center custom-spacing">
+                        <li class="nav-item row col-md-6 appointment">
+                            <button type="button" class="btn btn-dark btn-lg" onclick="window.location.href='upcoming.html';">
+                                Appointments
+                            </button>
+                        </li>
+                        <li class="nav-item profile">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                <i class="bi bi-person-circle" style="font-size: 2.5rem;"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container mt-5" style="background-color: white; padding: 0 12%;">
+            <h1 class="text-center mb-4">Specialists</h1>
+            <section>
+                <h2 style="padding-top: 2%;">Detailing</h2>
+                <div class="card specialist-card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-2 profile-icon">
+                            <i class="bi bi-person-circle" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">John Doe</h5>
+                                <p class="card-text">John is an expert in automotive detailing with over 10 years of experience. He specializes in paint correction and ceramic coatings, ensuring your car looks its best.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 book-specialist-btn">
+                            <button class="btn btn-primary" data-specialist-id="1">Book Specialist</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card specialist-card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-2 profile-icon">
+                            <i class="bi bi-person-circle" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Jane Smith</h5>
+                                <p class="card-text">Jane has a passion for car interiors. She excels in deep cleaning and upholstery restoration, making sure every detail is spotless.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 book-specialist-btn">
+                            <button class="btn btn-primary" data-specialist-id="2">Book Specialist</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Repairs</h2>
+                <div class="card specialist-card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-2 profile-icon">
+                            <i class="bi bi-person-circle" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Mike Johnson</h5>
+                                <p class="card-text">Mike is a certified automotive technician with a specialty in engine diagnostics and repair. He has a knack for troubleshooting and fixing complex issues.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 book-specialist-btn">
+                            <button class="btn btn-primary" data-specialist-id="3">Book Specialist</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card specialist-card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-2 profile-icon">
+                            <i class="bi bi-person-circle" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Emily Davis</h5>
+                                <p class="card-text">Emily specializes in brake and suspension systems. Her precision and attention to detail ensure that your vehicle is safe and reliable on the road.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 book-specialist-btn">
+                            <button class="btn btn-primary" data-specialist-id="4">Book Specialist</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Maintenance</h2>
+                <div class="card specialist-card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-2 profile-icon">
+                            <i class="bi bi-person-circle" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">David Wilson</h5>
+                                <p class="card-text">David is a maintenance expert with a focus on oil changes, tire rotations, and fluid checks. He ensures your vehicle runs smoothly and efficiently.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 book-specialist-btn">
+                            <button class="btn btn-primary" data-specialist-id="5">Book Specialist</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card specialist-card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-2 profile-icon">
+                            <i class="bi bi-person-circle" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Laura Brown</h5>
+                                <p class="card-text">Laura has extensive experience in routine maintenance services. Her comprehensive checks and services keep your vehicle in top condition.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 book-specialist-btn">
+                            <button class="btn btn-primary" data-specialist-id="6">Book Specialist</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card specialist-card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-2 profile-icon">
+                            <i class="bi bi-person-circle" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Chris Taylor</h5>
+                                <p class="card-text">Chris is dedicated to preventive maintenance. He focuses on identifying potential issues before they become major problems, ensuring longevity and reliability of your vehicle.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 book-specialist-btn">
+                            <button class="btn btn-primary" data-specialist-id="7">Book Specialist</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="container text-center">
+        <div class="footer">
+            © 2023 Auto Service. All rights reserved.
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

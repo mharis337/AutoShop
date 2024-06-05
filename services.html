@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Services</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="global.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+        <header class="site-header sticky-top py-1">
+            <nav class="navbar fixed-top navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="logo-spacing" href="./index.html">
+                        <img class="logo" src="images/Logo.png" alt="Auto Shop Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-left mb-2 mb-lg-0 justify-content-center custom-spacing">
+                            <li class="nav-item">
+                                <a class="nav-link highlighted" href="./services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./appointments.html">Book Appointment</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./specialist.html">Specialists</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about_us.html">About Us</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ms-auto justify-content-center custom-spacing">
+                            <li class="nav-item row col-md-6 appointment">
+                                <button type="button" class="btn btn-dark btn-lg" onclick="window.location.href='upcoming.html';">
+                                    Appointments
+                                </button>
+                            </li>
+                            <li class="nav-item profile align-items-start">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                    <i class="bi bi-person-circle" style="font-size: 2.5rem;"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarProfile">
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="container service-container mt-5">
+                <h1 class="text-center mb-5">Services</h1>
+
+                    <div class="service-card">
+                        <div class="service-details">
+                            <div class="service-title">Oil Change</div>
+                            <div class="service-price">60$</div>
+                        </div>
+                        <div class="service-description">
+                            Keep your engine running smoothly with our oil change service. We replace old oil with high-quality new oil, and also change the oil filter to ensure optimal performance. Recommended every 3,000 to 5,000 miles.
+                        </div>
+                        <div class="service-buttons">
+                            <button class="btn btn-primary book-service" data-service="Oil Change">Book Service</button>
+                            <button class="btn btn-secondary">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                      <div class="service-details">
+                          <div class="service-title">Tire Rotation</div>
+                          <div class="service-price">40$</div>
+                      </div>
+                      <div class="service-description">
+                          Extend the life of your tires with our tire rotation service. We ensure even tire wear by rotating the tires according to manufacturer recommendations. This helps in maintaining traction and improving fuel efficiency.
+                      </div>
+                      <div class="service-buttons">
+                          <button class="btn btn-primary book-service" data-service="Tire Rotation">Book Service</button>
+                          <button class="btn btn-secondary">Learn More</button>
+                      </div>
+                  </div>
+
+                  <div class="service-card">
+                    <div class="service-details">
+                        <div class="service-title">Wheel Alignment</div>
+                        <div class="service-price">80$</div>
+                    </div>
+                    <div class="service-description">
+                        Ensure a smooth and safe ride with our wheel alignment service. Misaligned wheels can cause uneven tire wear and affect your vehicle's handling. Our experts will adjust the angles of your wheels to the manufacturer's specifications.
+                    </div>
+                    <div class="service-buttons">
+                        <button class="btn btn-primary book-service" data-service="Wheel Alignment">Book Service</button>
+                        <button class="btn btn-secondary">Learn More</button>
+                    </div>
+                </div>
+
+                
+                <div class="service-card">
+                  <div class="service-details">
+                      <div class="service-title">Inspection</div>
+                      <div class="service-price">50$</div>
+                  </div>
+                  <div class="service-description">
+                      Stay compliant and ensure your vehicle is roadworthy with our comprehensive inspection service. We check all critical systems including brakes, lights, and emissions to ensure your car meets all safety standards.
+                  </div>
+                  <div class="service-buttons">
+                      <button class="btn btn-primary book-service" data-service="Inspection">Book Service</button>
+                      <button class="btn btn-secondary">Learn More</button>
+                  </div>
+              </div>
+
+              
+              <div class="service-card">
+                <div class="service-details">
+                    <div class="service-title">AC Repair</div>
+                    <div class="service-price">100$</div>
+                </div>
+                <div class="service-description">
+                    Keep cool with our AC repair service. Whether your AC is blowing warm air or not working at all, our technicians can diagnose and fix the problem, ensuring your car's air conditioning system is in top condition.
+                </div>
+                <div class="service-buttons">
+                    <button class="btn btn-primary book-service" data-service="AC Repair">Book Service</button>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+            </div>
+
+            
+            <div class="service-card">
+              <div class="service-details">
+                  <div class="service-title">Brake Repair</div>
+                  <div class="service-price">120$</div>
+              </div>
+              <div class="service-description">
+                  Ensure your safety with our brake repair service. We inspect, repair, and replace brake components to keep your vehicle's braking system functioning effectively. Don’t wait until it’s too late—get your brakes checked today.
+              </div>
+              <div class="service-buttons">
+                  <button class="btn btn-primary book-service" data-service="Brake Repair">Book Service</button>
+                  <button class="btn btn-secondary">Learn More</button>
+              </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-details">
+                <div class="service-title">Battery Replacement</div>
+                <div class="service-price">70$</div>
+            </div>
+            <div class="service-description">
+                Ensure your car starts every time with our battery replacement service. We test your current battery, replace it with a high-quality new one if needed, and dispose of the old battery responsibly. This service includes checking the battery terminals and cables.
+            </div>
+            <div class="service-buttons">
+                <button class="btn btn-primary book-service" data-service="Battery Replacement">Book Service</button>
+                <button class="btn btn-secondary">Learn More</button>
+            </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-details">
+              <div class="service-title">Car Detailing</div>
+              <div class="service-price">60$</div>
+          </div>
+          <div class="service-description">
+              Restore your car to its showroom condition with our comprehensive car detailing service. This includes thorough cleaning, polishing, and waxing of both the exterior and interior of your vehicle. Our professional detailers will ensure every inch of your car is spotless, leaving it looking and feeling like new.
+          </div>
+          <div class="service-buttons">
+              <button class="btn btn-primary book-service" data-service="Car Detailing">Book Service</button>
+              <button class="btn btn-secondary">Learn More</button>
+          </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-details">
+            <div class="service-title">Mechanical Repairs</div>
+            <div class="service-price">Varies</div>
+        </div>
+        <div class="service-description">
+            From minor fixes to major overhauls, our mechanical repair service covers it all. Whether it's your engine, transmission, suspension, or any other system, our experienced technicians will diagnose and repair the issue efficiently. We use quality parts and offer a warranty on all repairs.
+        </div>
+        <div class="service-buttons">
+            <button class="btn btn-primary book-service" data-service="Mechanical Repairs">Book Service</button>
+            <button class="btn btn-secondary">Learn More</button>
+        </div>
+    </div>
+    
+      
+        
+          
+                  
+
+
+            </div>
+        </main>
+
+        <footer class="container text-center">
+            <div class="footer">
+                © 2023 Auto Service. All rights reserved.
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </footer>
+
+        <script src="scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
